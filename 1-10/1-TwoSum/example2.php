@@ -1,6 +1,7 @@
 <!-- Mencari nama yang sama -->
 <?php
 
+
 function cariNamaDuplikat($nama, $target)
 {
 
@@ -17,4 +18,4 @@ function cariNamaDuplikat($nama, $target)
 
   return [];
 }
-print_r(cariNamaDuplikat(["Dio", "Dicky", "Dio", "Akai", "Dio"], "Akai"));
+print_r(cariNamaDuplikat(["Dio", "Dicky", "Dio", "Akai", "Dio"], "Dio"));
