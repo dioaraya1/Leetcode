@@ -17,5 +17,4 @@ function cariNamaDuplikat($nama, $target)
 
   return [];
 }
-
 print_r(cariNamaDuplikat(["Dio", "Dicky", "Dio", "Akai", "Dio"], "Akai"));
